@@ -7,6 +7,6 @@ class Fixnum
         numbers.map! { |number| number.%(3).eql?(0) ? 'ping' : number }
         numbers.map! { |number| number.%(5).eql?(0) ? 'pong' : number }
     numbers
+    end
   end
-end
 end
